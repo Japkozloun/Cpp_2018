@@ -1,0 +1,15 @@
+Postup:
+	int x =0
+	1	nacist 1.radek do vekrotu SumVekt
+	2	nacist dalsi radek do vekrotu NumVekt && x++
+	I = 0;
+	bool Run = True
+	3	While (Run) loop i (bere se to od konce)
+	IF i > 50 && i <= SumVekt.size()
+		3.1	- if SumVekt[i] + NumVektor[i] > 9
+			3.1.1 - SumVekt[i+1] = NumVektor[i] / 10
+			3.1.2 - SumVekt[i] - NumVektor[i] % 10
+		3.2 - {ELSE} SumVekt[i] + NumVektor[i]
+	ELSE
+		i = False
+	while (x < 100)
